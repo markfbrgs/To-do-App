@@ -1,0 +1,31 @@
+
+.confirmmodal .modal-content{
+    display: flex;
+    border: 3px solid #5E1B89;
+}
+
+.confirmtext{
+    font-family: "Lato";
+    color: #5E1B89;
+    padding: 15px;
+    font-size: medium;
+}
+
+.btn.btn-outline-secondary>span{
+    font-family: "Lato";
+    font-size: smaller;
+}
+
+.btn.btn-outline-primary>span{
+    font-family: "Lato";
+    font-size: smaller;
+}
+
+
+.btn.btn-outline-secondary:hover span {
+  color: #F8FFFE!important; 
+}
+
+.btn.btn-outline-primary:hover span {
+    color: #F8FFFE!important; 
+}

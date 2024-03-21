@@ -1,0 +1,62 @@
+.custom-modal .modal-content  {
+    background-color: #F8FFFE;
+    border: 3px solid#5E1B89;
+}
+  
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+.title{
+    font-family: "Lato";
+    margin-bottom: 10px ;
+    font-size: 15px;
+    background-color: #F8FFFE;
+    color: #5E1B89;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Apply box shadow */
+}
+
+.title:focus,
+.description:focus {
+    color: #5E1B89; /* Change font color when focused */
+}
+
+/* You can also change the placeholder color when the input fields are focused */
+.title:focus::placeholder,
+.description:focus::placeholder {
+    color: #5E1B89; /* Change placeholder color when focused */
+}
+
+.description{
+    font-family: "Lato";
+    font-size: 15px;
+    background-color: #F8FFFE;
+    width: 100%;
+    color: #5E1B89;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Apply box shadow */
+}
+
+.title::placeholder {
+    color: #5E1B89;
+  }
+  
+.description::placeholder {
+    color: #5E1B89;
+  }
+
+
+.footer{
+    border: none;
+    padding: 10;
+    padding-top:0;
+}
+
+
+
+
+  
+

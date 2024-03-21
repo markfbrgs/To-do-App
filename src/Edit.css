@@ -1,0 +1,61 @@
+.editmodal .modal-content {
+    background-color: #F8FFFE;
+    border: 3px solid #5E1B89;
+}
+
+.editmodal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editbody {
+    padding: 16px;
+    
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group>input{
+    margin-bottom: 10px;
+}
+
+.form-control {
+    font-family: "Lato";
+    font-size: 15px;
+    background-color: #F8FFFE;
+    color: #5E1B89;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Apply box shadow */
+}
+
+.form-control::placeholder {
+    color: #5E1B89;
+}
+
+.form-control:focus {
+    color:  #5E1B89; /* Change text color when input is focused */
+}
+
+.form-control:not(:placeholder-shown) {
+    color: #5E1B89; /* Change text color when input is not empty */
+}
+
+.footer1 {
+    border: none;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.exit {
+    border-radius: 19px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+

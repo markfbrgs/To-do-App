@@ -1,0 +1,84 @@
+.task-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Each row will have four containers */
+    grid-gap: 10px; /* Adjust the gap between containers as needed */
+}
+
+.task{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    padding-top: 0;
+    height: 200px;
+    position: relative;
+    box-shadow: 0px 0px 6px 1px rgba(94, 27, 137, 0.5); /* Add shadow */
+}
+
+.upper{
+    display: flex;
+    align-items:  center;
+}
+
+.upper h4{
+    font-family: "Roboto Slabs"!important;
+    color: #FF7F4D !important;
+    font-weight: 600;
+    margin-right: auto;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.desc p {
+    font-family: "Lato" !important;
+    font-size: small;
+    color: #FF7F4D !important;
+    white-space: pre-wrap; /* Preserve newline characters and wrap text */
+    margin-bottom: 0; /* Optional: to remove extra margin below the paragraph */
+  }
+
+  .date {
+    display: flex;
+    position: absolute; /* Position the date relative to its container */
+    bottom: -15px; /* Align the date to the bottom of the task container */
+    width: 91%; /* Ensure it spans the entire width of its container */
+   
+  }
+  
+.date p{
+    font-family: "Lato"!important;
+    font-size:xx-small;
+    color:#FF7F4D!important;
+    margin-right: auto;
+}
+
+
+@media (max-width: 768px) {
+    .task-list {
+      grid-template-columns: repeat(2, 1fr); /* Change to two columns for smaller screens */
+    }
+  }
+  
+
+@media (max-width: 480px) {
+.task-list {
+    grid-template-columns: repeat(1, 1fr); /* Change to one column for even smaller screens */
+    }
+}
+
+input[type=checkbox]{
+  accent-color: #9D71BC;
+  width: 15px;
+  height: 15px;
+  border-color: #9D71BC;
+}
+
+.pencil-icon {
+  color: #FF7F4D; /* Change the color as needed */
+  margin-left: auto;
+}
+
+.task.completed h4,
+.task.completed .desc p,
+.task.completed .date p {
+  text-decoration: line-through #5E1B89 !important;
+}

@@ -1,0 +1,159 @@
+body {
+  background-color:#F8FFFE;
+}
+
+.container{
+    position: relative;
+    border-radius: 10px;
+    padding: 30px; /* Add padding for inner content */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.container-fluid{
+  background-image: linear-gradient(to right, 
+    rgba(244, 81, 44, 0.7),
+    rgba(230, 27, 77, 0.7),
+    rgba(200, 0, 105, 0.7),
+    rgba(155, 0, 126, 0.7),
+    rgba(94, 27, 137, 0.7)
+  ), url('/img/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+
+.logo{
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.textlogo {
+  color: #F8FFFE !important;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0;
+}
+
+.textlogo1 {
+  color: #F8FFFE !important;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 60px;
+  margin-left: 70px;
+  
+}
+
+.navbar-text1 {
+    color: #F8FFFE !important;
+    font-family: "Roboto Slab";
+    font-size:large;
+    margin-left: 15px;
+  }
+
+.d-flex.justify-content-between.one{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.btn.btn-outline-primary{
+  color: #FF7F4D !important;
+  border: 1px solid#FF7F4D !important;
+
+}
+
+.btn.btn-outline-primary:hover{
+  background-color: #FF7F4D !important;
+}
+
+.btn.btn-outline-danger{
+  color: #E61B4D !important;
+  border: 1px solid#E61B4D !important;
+  
+}
+
+.btn.btn-outline-danger:hover{
+  background-color: #E61B4D !important;
+}
+
+.btn.btn-outline-success{
+  color: #C80069 !important;
+  border: 1px solid#C80069 !important;
+  font-family: "Lato" !important;
+  font-size: small;
+}
+
+.btn.btn-outline-success:hover{
+  background-color: #C80069 !important;
+}
+
+.btn.btn-outline-info{
+  color: #9B007E !important;
+  border: 1px solid#9B007E !important;
+  font-family: "Lato" !important;
+  font-size: small;
+  
+}
+
+.btn.btn-outline-info:hover{
+  background-color: #9B007E !important;
+}
+
+.btn.btn-outline-secondary{
+  color: #5E1B89 !important;
+  border: 1px solid#5E1B89 !important;
+  
+}
+
+.btn.btn-outline-secondary:hover{
+  background-color: #5E1B89 !important;
+}
+
+.btn.btn-outline-primary:hover svg {
+  color: #F8FFFE!important; /* Change the color of the plus icon when the primary button is hovered */
+}
+
+.btn.btn-outline-danger:hover svg {
+  color: #F8FFFE!important; /* Change the color of the trash icon when the danger button is hovered */
+}
+
+.btn.btn-outline-success:hover {
+  color: #F8FFFE !important; /* Change the color of the text when the success button is hovered */
+}
+
+.btn.btn-outline-info:hover {
+  color: #F8FFFE !important; /* Change the color of the text when the success button is hovered */
+}
+
+.btn.btn-outline-secondary:hover svg {
+  color: #F8FFFE; /* Change the color of the check icon when the success button is hovered */
+}
+
+.btn-outline-secondary {
+  color: #5E1B89;
+  background-color: transparent;
+  border-color: #5E1B89;
+}
+
+.btn-outline-secondary:hover {
+  color: #F8FFFE ;
+  background-color: #5E1B89 ;
+  border-color: #5E1B89 ;
+}
+
+.btn-secondary {
+  color:#F8FFFE;
+  background-color: #5E1B89 !important;
+  border-color: #5E1B89 !important;
+}
+
+
+
