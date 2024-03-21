@@ -136,7 +136,7 @@ export default function App() {
       <div className="container">
         <div className="container-fluid">
           <h1 className="textlogo">
-            <img src="public/img/3.png" alt="logo" className="logo" />
+            <img src="/3.png" alt="logo" className="logo" />
             LexMeet
           </h1>
           <h4 className="textlogo1">Legal help in a click!</h4>

@@ -16,7 +16,7 @@ body {
     rgba(200, 0, 105, 0.7),
     rgba(155, 0, 126, 0.7),
     rgba(94, 27, 137, 0.7)
-  ), url('/img/1.png');
+  ), url('/1.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 7px;
